@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Harsh Rana | AI & ML Engineer',
   description: 'Portfolio of Harsh Rana - AI & ML Engineer specializing in financial systems, automated compliance, and LLM integrations.',
   icons: {
-    icon: '/assets/logo.png',
+    icon: '/logo.png',
   },
 };
 
