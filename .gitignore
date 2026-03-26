@@ -1,1 +1,52 @@
-node_modules
+# Dependencies
+node_modules/
+dist/
+coverage/
+
+# Next.js
+.next/
+.next/**
+out/
+build/
+.vercel
+
+# Local Environment Variables
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+venv/
+.venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+backup/
+_backup/

@@ -37,7 +37,7 @@ export function About() {
             className="text-gray-400 text-lg leading-relaxed space-y-6"
           >
             <p>
-              I am a results-driven <span className="text-foreground font-medium">AI Engineer and Full-Stack Developer</span> based in Mumbai, India. My journey in tech started with a deep fascination for data architecture and has evolved into building sophisticated AI ecosystems.
+              I am a results-driven <span className="text-foreground font-medium">AI & ML Engineer</span> based in Mumbai, India. My journey in tech started with a deep fascination for data architecture and has evolved into building sophisticated AI ecosystems.
             </p>
             <p>
               Currently, I focus on integrating <span className="text-foreground font-medium">Generative AI and Local LLMs</span> into enterprise applications to automate complex workflows and ensure robust compliance. Whether it's designing highly efficient financial anomaly detection models or crafting scalable cloud architectures, I thrive at the intersection of data, AI, and scalable engineering.

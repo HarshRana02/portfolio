@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { IDEBlock } from './IDEBlock';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, FileDown } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -28,7 +28,7 @@ export function Hero() {
             Harsh Rana
           </h1>
           <h2 className="text-2xl lg:text-3xl text-gray-400 font-mono mb-8">
-            <span className="text-foreground">&gt; </span> AI Engineer & <br/> Full-Stack Developer
+            <span className="text-foreground">&gt; </span> AI & ML Engineer
           </h2>
           
           <p className="text-gray-400 text-lg mb-10 max-w-lg leading-relaxed">
@@ -41,6 +41,14 @@ export function Hero() {
               className="px-8 py-3 rounded bg-foreground text-background font-medium hover:bg-gray-200 transition-colors"
             >
               View My Work
+            </a>
+            <a 
+              href="/resume.pdf"
+              download="Harsh_Rana_Resume.pdf"
+              className="px-8 py-3 rounded bg-accent-blue/10 border border-accent-blue/30 text-accent-cyan font-medium hover:bg-accent-blue/20 transition-all flex items-center gap-2"
+            >
+              <FileDown size={18} />
+              Resume
             </a>
             <a 
               href="#contact"

@@ -31,8 +31,7 @@ export function IDEBlock() {
           <code className="text-blue-300">__init__</code>
           <code className="text-gray-300">{`(self):\n`}</code>
           <code className="text-gray-300">{`        self.role = `}</code>
-          <code className="text-green-300">"AI Engineer & Full-Stack Developer"</code>{`\n`}
-          <code className="text-gray-300">{`        self.location = `}</code>
+          <code className="text-green-300">"AI & ML Engineer"</code>{`\n`}          <code className="text-gray-300">{`        self.location = `}</code>
           <code className="text-green-300">"Mumbai, India"</code>{`\n`}
           <code className="text-gray-300">{`        self.focus = [`}</code>
           <code className="text-green-300">"Financial Systems"</code>{`, `}

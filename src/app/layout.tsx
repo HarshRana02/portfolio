@@ -6,8 +6,11 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const firaCode = Fira_Code({ subsets: ['latin'], variable: '--font-mono' });
 
 export const metadata: Metadata = {
-  title: 'Harsh Rana | AI Engineer & Full-Stack Developer',
-  description: 'Portfolio of Harsh Rana - AI Engineer specializing in financial systems, automated compliance, and LLM integrations.',
+  title: 'Harsh Rana | AI & ML Engineer',
+  description: 'Portfolio of Harsh Rana - AI & ML Engineer specializing in financial systems, automated compliance, and LLM integrations.',
+  icons: {
+    icon: '/logo.jpg',
+  },
 };
 
 export default function RootLayout({
