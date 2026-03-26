@@ -43,7 +43,7 @@ export function Hero() {
               View My Work
             </a>
             <a 
-              href="/resume.pdf"
+              href="/assets/resume.pdf"
               download="Harsh_Rana_Resume.pdf"
               className="px-8 py-3 rounded bg-accent-blue/10 border border-accent-blue/30 text-accent-cyan font-medium hover:bg-accent-blue/20 transition-all flex items-center gap-2"
             >

@@ -6,17 +6,17 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 const timeline = [
   {
     type: 'work',
-    role: 'Current Role',
+    role: 'AI Automation Engineer',
     company: 'PwC',
-    date: 'Present',
+    date: 'Dec 2025 - Present',
     description: 'Focusing on AI and enterprise integrations. Building scalable AI solutions and driving automated workflows within complex domains.',
     icon: Briefcase,
   },
   {
     type: 'work',
-    role: 'Systems Engineer (AI)',
+    role: 'Artificial Intelligence Engineer',
     company: 'Tata Consultancy Services',
-    date: 'Dec 2024 - Past',
+    date: 'Dec 2024 - Dec 2025',
     description: 'Led GenAI integration, developed powerful RAG systems, and modernized legacy infrastructure using LangChain and Local LLMs.',
     icon: Briefcase,
   },
@@ -42,7 +42,7 @@ export function Timeline() {
   return (
     <section id="experience" className="py-24 px-4 sm:px-8 bg-background relative selection:bg-accent-cyan/30">
       <div className="max-w-4xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -58,7 +58,7 @@ export function Timeline() {
 
         <div className="relative border-l border-gray-800 ml-3 md:ml-0">
           {timeline.map((item, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
