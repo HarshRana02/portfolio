@@ -7,7 +7,7 @@ const skillCategories = [
   {
     title: 'Languages',
     icon: Terminal,
-    skills: ['Python', 'SQL', 'Java', 'JavaScript', 'R', 'TypeScript', 'HTML/CSS'],
+    skills: ['Python', 'SQL', 'Java', 'JavaScript', 'React', 'HTML/CSS'],
   },
   {
     title: 'AI & Machine Learning',
@@ -30,7 +30,7 @@ export function Skills() {
   return (
     <section id="skills" className="py-24 px-4 sm:px-8 bg-[#0a0f19] relative selection:bg-accent-cyan/30">
       <div className="max-w-6xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -60,10 +60,10 @@ export function Skills() {
                 </div>
                 <h3 className="text-xl font-bold text-foreground">{category.title}</h3>
               </div>
-              
+
               <div className="flex flex-wrap gap-3">
                 {category.skills.map((skill) => (
-                  <span 
+                  <span
                     key={skill}
                     className="px-4 py-2 bg-[#161f33] text-gray-300 text-sm font-mono rounded-md border border-gray-700 shadow-sm hover:border-accent-cyan hover:text-accent-cyan hover:-translate-y-1 transition-all cursor-default"
                   >

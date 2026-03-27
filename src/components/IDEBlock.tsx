@@ -34,8 +34,8 @@ export function IDEBlock() {
           <code className="text-green-300">"AI & ML Engineer"</code>{`\n`}          <code className="text-gray-300">{`        self.location = `}</code>
           <code className="text-green-300">"Mumbai, India"</code>{`\n`}
           <code className="text-gray-300">{`        self.focus = [`}</code>
-          <code className="text-green-300">"Financial Systems"</code>{`, `}
-          <code className="text-green-300">"Automated Compliance"</code>{`, `}
+          <code className="text-green-300">"AI Agents"</code>{`, `}
+          <code className="text-green-300">"AI Automations"</code>{`, `}
           <code className="text-green-300">"LLM Integrations"</code>{`]\n\n`}
           <code className="text-accent-cyan">{`    def `}</code>
           <code className="text-blue-300">get_current_status</code>

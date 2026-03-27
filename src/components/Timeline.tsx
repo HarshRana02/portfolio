@@ -17,7 +17,7 @@ const timeline = [
     role: 'Artificial Intelligence Engineer',
     company: 'Tata Consultancy Services',
     date: 'Dec 2023 - Dec 2024',
-    description: 'Led GenAI integration, developed powerful RAG systems, and modernized legacy infrastructure using LangChain and Local LLMs.',
+    description: 'I led AI adoption by building a scholarship chatbot, a private coding assistant for developers, and an image tool that automatically categorizes products.',
     icon: Briefcase,
   },
   {

@@ -6,8 +6,8 @@ import Image from 'next/image';
 import harshrana from '@/assets/harshrana.jpg';
 
 const stats = [
-  { label: 'Projects Completed', value: '5+', icon: Briefcase },
-  { label: 'Certifications', value: '3+', icon: Star, subtext: 'AWS / GCP / Azure' },
+  { label: 'Projects Completed', value: '6+', icon: Briefcase },
+  { label: 'Certifications', value: '10+', icon: Star, subtext: 'Azure / GCP' },
   { label: 'Years Experience', value: '2+', icon: Cpu },
   { label: 'Tech Stack', value: '10+', icon: Code },
 ];
@@ -16,7 +16,7 @@ export function About() {
   return (
     <section id="about" className="py-24 px-4 sm:px-8 bg-[#0a0f19] relative">
       <div className="max-w-6xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -50,7 +50,7 @@ export function About() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -63,7 +63,7 @@ export function About() {
             <p>
               Currently, I focus on integrating <span className="text-foreground font-medium">Generative AI and Local LLMs</span> into enterprise applications to automate complex workflows and ensure robust compliance. Whether it's designing highly efficient financial anomaly detection models or crafting scalable cloud architectures, I thrive at the intersection of data, AI, and scalable engineering.
             </p>
-            
+
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4 pt-4">
               {stats.map((stat, i) => (
@@ -74,9 +74,9 @@ export function About() {
                   <div>
                     <div className="text-2xl font-bold text-foreground">{stat.value}</div>
                     <div className="text-sm text-gray-400 font-mono">{stat.label}</div>
-                     {stat.subtext && (
-                       <div className="text-xs text-accent-blue mt-1">{stat.subtext}</div>
-                     )}
+                    {stat.subtext && (
+                      <div className="text-xs text-accent-blue mt-1">{stat.subtext}</div>
+                    )}
                   </div>
                 </div>
               ))}
